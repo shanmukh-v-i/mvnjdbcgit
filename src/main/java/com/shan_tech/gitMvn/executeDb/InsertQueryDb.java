@@ -13,8 +13,8 @@ public class InsertQueryDb {
         try {
         	connection=ConnectDb.getCon();
         	insertStmt=connection.createStatement();
-        	insertStmt.execute("INSERT INTO EMPLOYEE (EMAIL_ADDRESS,FIRST_NAME,LAST_NAME) VALUES ('shan@shan-tech.com','shan','inamdar')");
-            insertStmt.execute("INSERT INTO EMPLOYEE (EMAIL_ADDRESS,FIRST_NAME,LAST_NAME) VALUES ('amit@shan-tech','amit','inamdar')");
+        	insertStmt.execute("INSERT INTO EMPLOYEES (EMAIL_ADDRESS,FIRST_NAME,LAST_NAME) VALUES ('shan@shan-tech.com','shan','inamdar')");
+            insertStmt.execute("INSERT INTO EMPLOYEES (EMAIL_ADDRESS,FIRST_NAME,LAST_NAME) VALUES ('amit@shan-tech','amit','inamdar')");
         	
         }
         catch (Exception e) {
