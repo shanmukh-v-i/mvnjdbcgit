@@ -13,7 +13,9 @@ public class App
     	Scanner sc=new Scanner(System.in);
     	switch(sc.nextInt()) {
     	case 1:InsertQueryDb.insertData();
+    		   break;
     	case 2:SelectQueryDb.selectDb();
+    		   break;
     	default:System.out.println("Select case 1 or case 2 only");
     }
     }
