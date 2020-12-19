@@ -6,7 +6,7 @@ import java.sql.Statement;
 import com.shan_tech.gitMvn.connectionClass.ConnectDb;
 
 public class InsertQueryDb {
-	public static void main(String args[]) {
+	public static void insertData() {
 		
 		Connection connection = null;
         Statement insertStmt = null;

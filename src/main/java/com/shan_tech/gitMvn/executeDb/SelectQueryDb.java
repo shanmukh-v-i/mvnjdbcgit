@@ -7,7 +7,7 @@ import java.sql.Statement;
 import com.shan_tech.gitMvn.connectionClass.ConnectDb;
  
 public class SelectQueryDb {
-    public static void main(String[] args) {
+    public static void selectDb() {
         Connection connection = null;
         
         Statement selectStmt = null;
